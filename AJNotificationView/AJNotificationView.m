@@ -210,6 +210,13 @@
             self.titleLabel.textColor = [UIColor whiteColor];
             break;
         }
+        case AJNotificationTypeDarkBlue: { //DarkBlue
+            firstColor = RGBA(99, 139, 173, 1.0);
+            secondColor = RGBA(0, 55, 105, 1.0);
+            toplineColor = RGBA(0, 35, 75, 1.0);
+            self.titleLabel.textColor = [UIColor whiteColor];
+            break;
+        }
         case AJNotificationTypeGreen: { //Green
             firstColor = RGBA(147, 207, 11, 1.0);
             secondColor = RGBA(99, 168, 1, 1.0);

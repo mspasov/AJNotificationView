@@ -25,6 +25,7 @@
 typedef enum {
     AJNotificationTypeDefault,
     AJNotificationTypeBlue, 
+    AJNotificationTypeDarkBlue,
     AJNotificationTypeRed,
     AJNotificationTypeGreen,
     AJNotificationTypeOrange
